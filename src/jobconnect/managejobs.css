@@ -1,0 +1,8 @@
+.mjlinks:hover{
+    color: tomato;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+.mjlinks{
+    color: black;
+}

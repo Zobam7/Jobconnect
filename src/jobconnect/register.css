@@ -1,0 +1,10 @@
+.registerpic{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: -100px;
+}

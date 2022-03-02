@@ -1,0 +1,167 @@
+.view{
+    position: relative;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 105vh;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -80px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.textbg{
+    padding-top: 100px;
+}
+.mainsearch{
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+.formsearch{
+    border: none;
+    padding-left: 10px;
+    margin: 0;
+}
+.formsearch:focus{
+    outline: none;
+}
+.mainsliderbtn:hover{
+    background-color: white !important;
+    color: red !important;
+}
+.mainsliderbtn:focus{
+    background-color: white !important;
+    color: red !important;
+    outline: none !important;
+}
+.jobcardsimg{
+    height: 90px !important;
+    width: 90px !important;
+    border-radius: 50% !important;
+    border: 2px solid black !important;
+
+}
+.tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgba(242, 17, 54,0.1);
+    color: #f21136;
+    height: 5px;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid rgba(255, 0, 43, 0.9);
+}
+.trendjobs{
+    background-color: rgba(255, 0, 43, 0.1);
+    color: #ff0730;
+}
+.trendjobs:hover{
+    text-decoration: none;
+    color: orange;
+}
+.trendjobs a:hover{
+
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tags2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgba(254, 184, 1,0.1);
+    border: 2px solid rgba(254, 184, 1,0.1);
+    color: #feb801;
+    height: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.test{
+    color: black;
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.54); 
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.54);
+}
+.heading h1{
+    font-weight: bolder;
+}
+.Jobcards{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.mainbtn{
+    text-decoration: none !important;
+    color: black;
+}
+.bbtn{
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.73); 
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.73);
+}
+.mainicon{
+    color: black;
+}
+.mainicon:hover{
+    color: orange;
+}
+.cv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cv h3{
+    border: none;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.cvhr{
+    background-color: white;
+    height: 10px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+.cv button{
+    padding: 5px 5px 5px 5px;
+}
+.cvbottom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.adpic{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.adtext{
+    font-weight: 700;
+}
+.adhr{
+    background-color: black;
+    height: 5px;
+    width: 200px;
+}
+.signupcontainer{
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.73); 
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.73);
+    
+}
+.signup{
+    background-image: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+.signup h5{
+
+    font-weight: 600;
+}

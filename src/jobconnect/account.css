@@ -1,0 +1,46 @@
+
+.profilelist{
+    margin-bottom: 10px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    transition: all 350ms ease-in-out;
+    border: 2px solid #dde6ef;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.profilelist:hover{
+    background-color: #df4759;
+    color: white !important;
+}
+.profilelist.active{
+    background-color: #df4759 !important;
+    color: white !important;
+    outline: none !important;
+}
+.profilelist:focus{
+    outline: none !important;
+}
+.proflielistul{
+    list-style: none;
+    padding: 0;
+}
+.userpic{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    border: 2px solid #dde6ef;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userform{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    border: 2px solid #dde6ef;
+    border-radius: 10px;
+    background-color: white;
+}
+.userform button{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    border: 2px solid #dde6ef;
+    border-radius: 10px;
+}

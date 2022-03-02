@@ -1,0 +1,26 @@
+.userde{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border: 2px solid #dde6ef;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.userd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.userde h3{
+    font-weight: 600;
+}
+.usertitle{
+    font-weight: 100px;
+    color: gray;
+}
+.userbody{
+    font-weight: 500;
+    font-size: 20px;
+    overflow-wrap: break-word;
+}

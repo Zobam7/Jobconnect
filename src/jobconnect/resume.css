@@ -1,0 +1,40 @@
+.resume{
+    background-color: white;
+}
+.resumeheader{
+    margin-top: 20px;
+}
+.resumeheader h3{
+    font-weight: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.resumeheader p{
+    font-weight: 300px;
+}
+.resumeheader img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+.resumeheader button{
+    border: none;
+    background-color: brown;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+.resumeheader button:hover{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+.details h3{
+    font-weight: 600px;
+}
+.details hr{
+    background-color: brown;
+    height: 2px;
+    border-radius: 5px;
+    width: 100px;
+}
+.details ul{
+    list-style: none;
+}

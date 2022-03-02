@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    
+    background-color: transparent !important;
+}
+.navclass{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.topbar.active{
+    
+    background-color: black !important;
+    transition: all 0.5s;
+}
+.changeBackground {
+    background-color: black;
+}
+.navbar-nav li:hover{
+    color: brown !important;
+}
+.nav-link:hover{
+    color: tomato !important;
+}
+.nav-link.active{
+    color: tomato !important;
+}

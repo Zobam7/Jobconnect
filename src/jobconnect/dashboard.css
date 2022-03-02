@@ -1,0 +1,138 @@
+.topcards{
+    background-color: white !important;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    border: 2px solid #dde6ef;
+    display: flex;
+}
+.topcards span{
+    color:#df4759
+}
+.jobnear{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid #dde6ef;
+}
+.jobneartitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.jobnearimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.jobnearlist{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.jobnearlistitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.jobnearname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jobnearnames{
+    font-weight: 600;
+}
+.jobneartitles{
+    font-weight: 300;
+}
+.jobnearbutton{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #df4759;
+    color: white;
+}
+.jobnearbuttonlink:hover{
+    text-decoration: none;
+}
+.resume{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.resumepic{
+    height: 429px;
+    width: 100%;
+    opacity: 0.7;
+}
+.resumetext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.resumehead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resumetext h3{
+    font-weight: 600;
+    
+}
+.resumehr{
+    background-color: black;
+    height: 5px;
+    width: 200px;
+}
+.resumebottom{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+}
+.file{
+    background-color: red;
+    border-radius: 10px;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+    
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: #df4759;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+.inf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
